@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const Hero = () => {
@@ -10,7 +11,7 @@ const Hero = () => {
         <div className="mb-16 lg:mt-32 xl:mt-40 xl:mr-12">
           <h1 className="h1-large mb-5">Team management mobile application</h1>
           <p className="p-large mb-8">
-            Start getting things done together with your team based on Pavo's
+            Start getting things done together with your team based on Pavo&apos;s
             revolutionary team management features
           </p>
           <a className="btn-solid-lg" href="#your-link">
@@ -21,10 +22,12 @@ const Hero = () => {
           </a>
         </div>
         <div className="xl:text-right">
-          <img
+          <Image
             className="inline"
-            src="images/header-smartphone.png"
+            src="/images/header-smartphone.png"
             alt="alternative"
+            width={480}
+            height={480}
           />
         </div>
       </div>

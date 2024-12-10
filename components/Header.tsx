@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const Header = () => {
@@ -8,7 +9,7 @@ const Header = () => {
           className="inline-block mr-4 py-0.5 text-xl whitespace-nowrap hover:no-underline focus:no-underline"
           href="index.html"
         >
-          <img src="images/logo.svg" alt="alternative" className="h-8" />
+          <Image src="/images/logo.svg" alt="alternative" className="h-8" width={32} height={32} />
         </a>
 
         <div

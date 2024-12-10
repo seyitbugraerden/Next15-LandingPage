@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const Details = () => {
@@ -11,7 +12,7 @@ const Details = () => {
                 Results driven ground breaking technology
               </h2>
               <p className="mb-4">
-                Based on our team's extensive experience in developing line of
+                Based on our team&apos;s extensive experience in developing line of
                 business applications and constructive customer feedback we
                 reached a new level of revenue.
               </p>
@@ -23,10 +24,12 @@ const Details = () => {
           </div>
           <div className="lg:col-span-7">
             <div className="xl:ml-14">
-              <img
+              <Image
                 className="inline"
-                src="images/details-1.jpg"
+                src="/images/details-1.jpg"
                 alt="alternative"
+                width={480}
+                height={480}
               />
             </div>
           </div>
@@ -36,10 +39,12 @@ const Details = () => {
         <div className="container px-4 sm:px-8 lg:grid lg:grid-cols-12 lg:gap-x-12">
           <div className="lg:col-span-7">
             <div className="mb-12 lg:mb-0 xl:mr-14">
-              <img
+              <Image
                 className="inline"
-                src="images/details-2.jpg"
+                src="/images/details-2.jpg"
                 alt="alternative"
+                width={480}
+                height={480}
               />
             </div>
           </div>

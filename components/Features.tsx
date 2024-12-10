@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const Features = () => {
@@ -6,7 +7,12 @@ const Features = () => {
       <div className="container px-4 sm:px-8 xl:px-4">
         <div className="card">
           <div className="card-image">
-            <img src="images/features-icon-1.svg" alt="alternative" />
+            <Image
+              src="/images/features-icon-1.svg"
+              alt="alternative"
+              width={480}
+              height={480}
+            />
           </div>
           <div className="card-body">
             <h5 className="card-title">Platform Integration</h5>
@@ -19,7 +25,12 @@ const Features = () => {
 
         <div className="card">
           <div className="card-image">
-            <img src="images/features-icon-2.svg" alt="alternative" />
+            <Image
+              src="/images/features-icon-2.svg"
+              alt="alternative"
+              width={480}
+              height={480}
+            />
           </div>
           <div className="card-body">
             <h5 className="card-title">Easy On Resources</h5>
@@ -32,7 +43,12 @@ const Features = () => {
 
         <div className="card">
           <div className="card-image">
-            <img src="images/features-icon-3.svg" alt="alternative" />
+            <Image
+              src="/images/features-icon-3.svg"
+              alt="alternative"
+              width={480}
+              height={480}
+            />
           </div>
           <div className="card-body">
             <h5 className="card-title">Great Performance</h5>
@@ -45,7 +61,12 @@ const Features = () => {
 
         <div className="card">
           <div className="card-image">
-            <img src="images/features-icon-4.svg" alt="alternative" />
+            <Image
+              src="/images/features-icon-4.svg"
+              alt="alternative"
+              width={480}
+              height={480}
+            />
           </div>
           <div className="card-body">
             <h5 className="card-title">Multiple Languages</h5>
@@ -58,12 +79,17 @@ const Features = () => {
 
         <div className="card">
           <div className="card-image">
-            <img src="images/features-icon-5.svg" alt="alternative" />
+            <Image
+              src="/images/features-icon-5.svg"
+              alt="alternative"
+              width={480}
+              height={480}
+            />
           </div>
           <div className="card-body">
             <h5 className="card-title">Free Updates</h5>
             <p className="mb-4">
-              Don't worry about future costs, pay once and receive all future
+              Don&apos;t worry about future costs, pay once and receive all future
               updates at no extra cost
             </p>
           </div>
@@ -71,7 +97,12 @@ const Features = () => {
 
         <div className="card">
           <div className="card-image">
-            <img src="images/features-icon-6.svg" alt="alternative" />
+            <Image
+              src="/images/features-icon-6.svg"
+              alt="alternative"
+              width={480}
+              height={480}
+            />
           </div>
           <div className="card-body">
             <h5 className="card-title">Community Support</h5>
